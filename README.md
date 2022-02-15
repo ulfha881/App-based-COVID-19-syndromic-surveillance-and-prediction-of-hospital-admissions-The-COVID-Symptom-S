@@ -7,4 +7,4 @@ All codes needed for running the analyses are located in "/proj/sens2020559/COVI
 
 The codes have been run on CentOS Linux 7 (Core).  The softwares used are R 3.6.1 and Stata/MP 15.1. Note that a number of R libraries have to be imported, for example data.table, haven, lubridate. The libraries required are stated in the header of each individual code. 
 
-The full code with the full dataset is preferably run on a node of 256 GB, and requires one or two days. The mock datasets should be possible to run in a couple of hours.
+The full code with the full dataset is preferably run on a node of 256 GB, and requires one or two days. The mock datasets should have an expected running time of a couple of hours.
