@@ -5,4 +5,4 @@ This folder contains all codes used for the paper "App-based COVID-19 syndromic 
 
 All codes needed for running the analyses are located in "/proj/sens2020559/COVID-19/Codes". The bash file "0_Run.sh" runs every other code in order from beginning to end to produce all output, including sensitivity analyses. The 'sed' lines are for changing global options in the code (which is why some codes are run several times). 
 
-The codes have been run on CentOS Linux 7 (Core).  
+The codes have been run on CentOS Linux 7 (Core).  The softwares used are R 3.6.1 and Stata/MP 15.1.
