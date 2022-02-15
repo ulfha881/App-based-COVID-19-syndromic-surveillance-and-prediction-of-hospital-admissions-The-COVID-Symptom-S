@@ -5,6 +5,6 @@ This folder contains all codes used for the paper "App-based COVID-19 syndromic 
 
 All codes needed for running the analyses are located in "/proj/sens2020559/COVID-19/Codes". The bash file "0_Run.sh" runs every other code in order from beginning to end to produce all output, including sensitivity analyses. The 'sed' lines are for changing global options in the code (which is why some codes are run several times). The GitHub folder structure reproduces the folder structure used when running the code. The output will be in the "MyData" and "Results" folders and sub-folders.
 
-The codes have been run on CentOS Linux 7 (Core).  The softwares used are R 3.6.1 and Stata/MP 15.1. Note that a number of R libraries have to be imported, for example data.table, haven, lubridate. The libraries required are stated in the header of each individual code. 
+The codes have been run on CentOS Linux 7 (Core).  The softwares used are R 3.6.1 and Stata/MP 15.1. R is free software. Stata licenses are described here: "https://www.stata.com/order/license-options/. Note that a number of R libraries have to be imported, for example data.table, haven, lubridate. The libraries required are stated in the header of each individual code. 
 
 The full code with the full dataset is preferably run on a node of 256 GB, and requires one or two days. The mock datasets should have an expected running time of a couple of hours.
